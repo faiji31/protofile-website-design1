@@ -116,3 +116,31 @@ nav li{
     background-color: #cfcef2;
     border-radius: 10px;
 }
+.carddesign{
+    display: flex;
+    gap: 0px;
+   justify-content: space-around;
+}
+.card1{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 20px 150px 20px 10px;
+    text-align: justify;
+
+    
+}
+.reviewr{
+    display: flex;
+}
+.h3-banner{
+    margin-bottom: 60px;
+}
+.h2b{
+    margin-bottom: 10px;
+}
+.star{
+    margin-bottom: 10px;
+}
+.description{
+    margin-bottom: 10px;
+}
