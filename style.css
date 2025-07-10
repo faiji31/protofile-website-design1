@@ -44,6 +44,8 @@ nav ul{
     padding: 12px 36px;
     border:none;
     border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s;
 }
 .h3-head{
     font-weight: bold;
@@ -60,4 +62,29 @@ nav li{
 }
 .h3-head{
     margin-bottom: 30px;
+}
+.btn:hover{
+    background-color: yellow;
+    color: #252432;
+}
+.h3-banner{
+    font-weight: bold;
+    font-size: 42px;
+    color: #252432;
+}
+.p-banner{
+    font-weight: 500;
+    font-size: 24px;
+    color: #494861;
+}
+.photo{
+    border-radius: 48px;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-section{
+    text-align: justify;
+    padding: 50px;
 }
