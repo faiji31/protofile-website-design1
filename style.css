@@ -144,3 +144,18 @@ nav li{
 .description{
     margin-bottom: 10px;
 }
+.liam-h3{
+    font-weight: bold;
+    font-size: 50px;
+}
+.pic{
+    margin-top: 25px;
+    
+}
+.pic1{
+    border-radius: 45px;
+}
+.liam{
+    background-color: aliceblue;
+    padding: 40px 60px;
+}
