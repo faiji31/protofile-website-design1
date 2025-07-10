@@ -200,3 +200,29 @@ nav li{
       display: block;
       font-weight: bold;
     }
+    .tas{
+        font-weight: bold;
+        font-size: 100px;
+        color:#4E47FF ;
+        margin-bottom: 10px;
+    }
+    .simon{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .tasfiq{
+       align-items: center;
+       padding: 80px 60px;
+    }
+    .smaron {
+        text-align: center;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        margin-right: 600px;
+        margin-left: 600px;
+    }
+    footer{
+        background-color: white;
+    }
+    
