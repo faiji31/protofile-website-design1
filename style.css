@@ -4,14 +4,25 @@
   font-weight: bold;
   font-style: normal;
 }
+
 *{
-    margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
+    
+}
+.bg{
+    background-image: url(Assets/Hero-bg.png);
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+   background-repeat: no repeat;
+
 }
 ul li{
 
     list-style: none;
+
 }
 nav li a{
     text-decoration: none;
@@ -34,9 +45,6 @@ nav ul{
     border:none;
     border-radius: 10px;
 }
-nav{
-    margin: 50px;
-}
 .h3-head{
     font-weight: bold;
     font-size: 65px;
@@ -46,6 +54,10 @@ section{
     text-align: center;
     margin: 158px;
 }
-.bg{
-    background-image: url(Assets/Hero-bg.png);
+nav li{
+   
+    padding: 50px 100px;
+}
+.h3-head{
+    margin-bottom: 30px;
 }
