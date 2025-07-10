@@ -1,0 +1,51 @@
+.playfair-display-normal {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 34px;
+    color: #4E47FF;
+    font-weight: bolder;
+}
+.btn{
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 36px;
+    border:none;
+    border-radius: 10px;
+}
+nav{
+    margin: 50px;
+}
+.h3-head{
+    font-weight: bold;
+    font-size: 65px;
+    color: #252432;
+}
+section{
+    text-align: center;
+    margin: 158px;
+}
+.bg{
+    background-image: url(Assets/Hero-bg.png);
+}
