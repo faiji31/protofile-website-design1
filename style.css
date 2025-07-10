@@ -88,3 +88,31 @@ nav li{
     text-align: justify;
     padding: 50px;
 }
+.bg-color{
+    background-color: #e3e3f0;
+}
+.h3-banner2{
+    font-weight: bold;
+    font-size: 38px;
+}
+.banner-title{
+    display: flex;
+    gap: 0px;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.title{
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+.title-1{
+    font-weight: lighter;
+    font-size: 20px;
+    color: #494861;
+}
+.banner2{
+    padding: 80px;
+    background-color: #cfcef2;
+    border-radius: 10px;
+}
