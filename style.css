@@ -1,228 +1,299 @@
 .playfair-display-normal {
-  font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
-    
+
 }
-.bg{
+
+.bg {
     background-image: url(Assets/Hero-bg.png);
     width: 100%;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
-   background-repeat: no repeat;
+    background-repeat: no repeat;
 
 }
-ul li{
+
+ul li {
 
     list-style: none;
 
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: space-between;
 }
+
 .logo {
     font-size: 34px;
     color: #4E47FF;
     font-weight: bolder;
 }
-.btn{
+
+.btn {
     font-weight: bold;
     font-size: 16px;
     background-color: #4E47FF;
     color: white;
     padding: 12px 36px;
-    border:none;
+    border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.7s;
 }
-.h3-head{
+
+.h3-head {
     font-weight: bold;
     font-size: 65px;
     color: #252432;
 }
-section{
+
+section {
     text-align: center;
     margin: 158px;
 }
-nav li{
-   
+
+nav li {
+
     padding: 50px 100px;
 }
-.h3-head{
+
+.h3-head {
     margin-bottom: 30px;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: yellow;
     color: #252432;
 }
-.h3-banner{
+
+.h3-banner {
     font-weight: bold;
     font-size: 42px;
     color: #252432;
 }
-.p-banner{
+
+.p-banner {
     font-weight: 500;
     font-size: 24px;
     color: #494861;
 }
-.photo{
+
+.photo {
     border-radius: 48px;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
 }
-.banner-section{
+
+.banner-section {
     text-align: justify;
     padding: 50px;
 }
-.bg-color{
+
+.bg-color {
     background-color: #e3e3f0;
 }
-.h3-banner2{
+
+.h3-banner2 {
     font-weight: bold;
     font-size: 38px;
 }
-.banner-title{
+
+.banner-title {
     display: flex;
     gap: 0px;
     justify-content: space-around;
     margin-top: 20px;
 }
-.title{
+
+.title {
     font-weight: bold;
     font-size: 80px;
     color: #4E47FF;
 }
-.title-1{
+
+.title-1 {
     font-weight: lighter;
     font-size: 20px;
     color: #494861;
 }
-.banner2{
+
+.banner2 {
     padding: 80px;
     background-color: #cfcef2;
     border-radius: 10px;
 }
-.carddesign{
+
+.carddesign {
     display: flex;
     gap: 0px;
-   justify-content: space-around;
+    justify-content: space-around;
 }
-.card1{
+
+.card1 {
     background-color: aliceblue;
     border-radius: 10px;
     padding: 20px 150px 20px 10px;
     text-align: justify;
 
-    
+
 }
-.reviewr{
+
+.reviewr {
     display: flex;
 }
-.h3-banner{
+
+.h3-banner {
     margin-bottom: 60px;
 }
-.h2b{
+
+.h2b {
     margin-bottom: 10px;
 }
-.star{
+
+.star {
     margin-bottom: 10px;
 }
-.description{
+
+.description {
     margin-bottom: 10px;
 }
-.liam-h3{
+
+.liam-h3 {
     font-weight: bold;
     font-size: 50px;
 }
-.pic{
+
+.pic {
     margin-top: 25px;
-    
+
 }
-.pic1{
+
+.pic1 {
     border-radius: 45px;
 }
-.liam{
+
+.liam {
     background-color: aliceblue;
     padding: 40px 60px;
 }
-.musta{
+
+.musta {
     font-weight: bold;
     font-size: 97px;
 }
-.form{
+
+.form {
     display: flex;
     justify-content: space-between;
     margin: 50px 300px;
 }
-  .jubu {
-      padding: 30px;
-      max-width: 400px;
-      margin: auto;
-      border-radius: 10px;
-     
-    }
 
-    .jubu input[type="text"],
-    .jubu textarea {
-      height: 64px;
-      border-radius: 5px;
-      background-color: white;
-      display: block;
-      width: 100%;
-      padding: 5px 20px;
-      margin-bottom: 10px;
-      border: none;
-    
-      font-size: 16px;
-    }
+.jubu {
+    padding: 30px;
+    max-width: 400px;
+    margin: auto;
+    border-radius: 10px;
 
-    .jubu textarea {
-      height: 150px;
-      resize: vertical;
-    }
+}
 
-    .jubu label {
-      margin-bottom: 5px;
-      display: block;
-      font-weight: bold;
-    }
-    .tas{
-        font-weight: bold;
-        font-size: 100px;
-        color:#4E47FF ;
-        margin-bottom: 10px;
-    }
-    .simon{
-        text-align: center;
-        margin-bottom: 10px;
-    }
-    .tasfiq{
-       align-items: center;
-       padding: 80px 60px;
-    }
-    .smaron {
-        text-align: center;
-        justify-content: space-around;
-        align-items: center;
-        display: flex;
-        margin-right: 600px;
-        margin-left: 600px;
-    }
-    footer{
-        background-color: white;
-    }
-    
+.jubu input[type="text"],
+.jubu textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+    border: none;
+
+    font-size: 16px;
+}
+
+.jubu textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.jubu label {
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.tas {
+    font-weight: bold;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.simon {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tasfiq {
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.smaron {
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-right: 600px;
+    margin-left: 600px;
+}
+
+footer {
+    background-color: white;
+}
+
+.btn-2 {
+    font-weight:300;
+    font-size: 16px;
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 120px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.btn-2:hover {
+    background-color: yellow;
+    color: #252432;
+
+}
+.frm{
+    text-align: justify;
+}
+.sm{
+    display: flex;
+    gap: 40px;
+   
+}
+.sm li{
+    font-weight: lighter;
+    font-size: 16px;
+    color: #494861;
+}
