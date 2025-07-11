@@ -289,13 +289,15 @@ footer {
 }
 .sm{
     display: flex;
-    gap: 30px;
+    gap: 10px;
+    
    
 }
 .sm li{
     font-weight: lighter;
     font-size: 15px;
     color: #494861;
+  
 }
 .women{
     display: flex;
