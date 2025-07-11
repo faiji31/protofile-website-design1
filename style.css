@@ -294,6 +294,11 @@ footer {
 }
 .sm li{
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 15px;
     color: #494861;
+}
+.women{
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
 }
